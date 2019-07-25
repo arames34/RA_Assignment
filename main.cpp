@@ -5,7 +5,7 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
 
     JsonReader* j1 = new JsonReader();
-    j1->readJsonFile("./test.txt");
+    j1->readJsonFile("C:\\Users\\arvcs\\CLionProjects\\Assignment\\test.txt");
 
     return 0;
 }

@@ -3,4 +3,5 @@ project(Assignment)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Assignment main.cpp jsoncpp.cpp)
+
+add_executable(Assignment main.cpp jsoncpp.cpp JsonReader.cpp JsonReader.h data.cpp data.h)
