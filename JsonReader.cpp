@@ -19,12 +19,11 @@ void JsonReader::readJsonFile(string path) {
         {
             string id = root[i].get("id", "ASCII").asString();
             cout<<"id: "<< id  << endl;
-            cout<<"Cost: "<<root[i].get("cost", "ASCII").asString()<<endl;
-            Json::Value cost_array = root[i].get("cost_components",NULL);
-            for (int i =0; i< cost_array.size(); i++){
-
-                cout << "VALUES:" << cost_array[i] << endl;
-            }
+  //          Json::Value cost_array = root[i].get("cost_components",NULL);
+        //    for (int i =0; i< cost_array.size(); i++){
+               // cout << "VALUES:" << cost_array[i] << endl;
+          //
+          //  }
             // etc.
         }
     }
